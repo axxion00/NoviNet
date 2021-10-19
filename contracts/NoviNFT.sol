@@ -7,7 +7,7 @@ import "./OwnableUpgradeable.sol";
 import "./ReentrancyGuardUpgradeable.sol";
 import "./CountersUpgradeable.sol";
 
-contract AnkarNFT is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
+contract NoviNFT is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
     using CountersUpgradeable for CountersUpgradeable.Counter;
     CountersUpgradeable.Counter private _tokenIds;
 
