@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "./ERC721Upgradeable.sol";
 import "./IERC721Upgradeable.sol";
 
-contract AnkarAuction {
+contract NoviNetwork {
     struct Bidder {
         address payable addr;
         uint256 amount;
